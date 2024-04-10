@@ -3,7 +3,9 @@
 // Execute `rustlings hint functions5` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+//They are not the same. There are two solutions:
+// 1. Add a `return` ahead of `num * num;`
+// 2. remove `;`, make it to be `num * num`
 
 fn main() {
     let answer = square(3);
@@ -11,5 +13,5 @@ fn main() {
 }
 
 fn square(num: i32) -> i32 {
-    num * num;
+    num * num
 }
